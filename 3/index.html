@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Безрукова Д</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="header">
+          <img
+            style="float: left; margin: 10px; width: 100px; height: 100px"
+            src="1.png"
+            alt="Феникс"
+          />
+          <div id="hd_back"><h1>Шапка сайта</h1></div>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div class="container">
+        <div id="nav">
+          <div id="navt">
+            <a href="http://example.com/main" style="color: #800000">Главная</a>
+            <a href="http://example.com/assistant" style="color: #800000"
+              >Помощь</a
+            >
+            <a href="http://example.com/about company" style="color: #800000"
+              >О нас</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="main">
+      <div class="container flex">
+        <ol id="list">
+          <li>
+            <a href="//www.example.com" title="Example" target="_blank"
+              >Example</a
+            >
+          </li>
+          <li>
+            <a href="https://example.com" title="Example" target="_blank"
+              >Example https</a
+            >
+          </li>
+          <li>
+            <a href="ftp://example.com/text" title="Example" target="_blank"
+              >Example ftp</a
+            >
+          </li>
+          <li>
+            <a
+              href="ftp://daria:123456@example.com/text"
+              title="Example"
+              target="_blank"
+              >Example ftp with login</a
+            >
+          </li>
+          <li>
+            <a href="https://www.matrixresurrections.net#trailer">sait</a>
+          </li>
+          <li><a href="#list" title="Example" target="_blank">This list</a></li>
+          <li>
+            <a
+              href="https://example.com/main?key=krt8ret8k&id=3546"
+              title="Example"
+              target="_blank"
+              >url param</a
+            >
+          </li>
+          <li>
+            <ul>
+              <li><a href="https://example.com" title="Main">Main</a></li>
+              <li>
+                <a href="https://example.com" title="Assistance">Assistance</a>
+              </li>
+            </ul>
+          </li>
+          <li><a>ссылка без href</a></li>
+          <li>
+            <a href="" title="Example" target="_blank">nothing</a>
+          </li>
+          <li>
+            <a
+              href="https://example.com"
+              title="Example"
+              target="_blank"
+              rel="nofollow"
+              >nofollow</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://example.com"
+              title="Example"
+              target="_blank"
+              rel="noindex"
+              >no index</a
+            >
+          </li>
+          <li>
+            <p>
+              Go
+              <a href="//www.example.com" title="Example" target="_blank"
+                >here</a
+              >
+            </p>
+          </li>
+          <li>
+            <a href="http://example.com"
+              ><img
+                src="image.jpg"
+                width="150"
+                height="120"
+                alt="Желтый цветок"
+            /></a>
+          </li>
+          <li>
+            <img
+              src="image.jpg"
+              width="150"
+              height="120"
+              usemap="#flower"
+              alt="Желтый цветок"
+            />
+          </li>
+
+          <li>
+            <a href="./main.html" title="Example" target="_blank">catalog</a>
+          </li>
+          <li>
+            <a href="./about/main.html" title="Example" target="_blank"
+              >catalog main</a
+            >
+          </li>
+
+          <li><a href="../thematrix.html">up </a></li>
+          <li><a href="../../Vachovsky.html">up*2</a></li>
+          <li>
+            <a href="/home">main</a>
+          </li>
+          <li><a href="/news">m</a></li>
+        </ol>
+        <table border="2" valign="middle" class="main-table">
+          <tr>
+            <th>Город</th>
+            <th>Население</th>
+            <th>Кол-во рек</th>
+          </tr>
+          <tr>
+            <td>Город</td>
+            <td>Население</td>
+            <td>Кол-во рек</td>
+          </tr>
+          <tr>
+            <td>Город</td>
+            <td>Население</td>
+            <td>Кол-во рек</td>
+          </tr>
+          <tr>
+            <td>Город</td>
+            <td colspan="2">Нет</td>
+          </tr>
+          <tr>
+            <td>Город</td>
+            <td>Население</td>
+            <td>Кол-во рек</td>
+          </tr>
+          <tr>
+            <td>Город</td>
+            <td>Население</td>
+            <td>Кол-во рек</td>
+          </tr>
+        </table>
+        <div id="form">
+          <form id="contract-form" method="POST" action="/">
+            <label> <input type="text" placeholder="Имя" /><br /></label>
+            <label><input type="email" placeholder="email" /><br /></label>
+            <label><input type="date" /><br /></label>
+            <label>
+              Пол
+              <input type="radio" name="gender" value="male" />Мужской
+            </label>
+            <label>
+              <input type="radio" name="gender" value="female" />Женский
+            </label>
+            <br />
+            <label>
+              Кол-во конечностей
+              <input type="radio" name="arms" value="1" />1
+            </label>
+            <label> <input type="radio" name="arms" value="2" />2 </label>
+            <label>
+              <input type="radio" name="arms" value="more" />3 и более
+            </label>
+            <br />
+            <label>
+              Сверхспособность<br />
+              <select name="arg[]" multiple="multiple">
+                <option value="god">бессмертие</option>
+                <option value="wall">прохождение сквозь стены</option>
+                <option value="fly">левитация</option>
+              </select>
+            </label>
+            <br />
+            <label> Биография <textarea name="about"></textarea></label><br />
+            <label><input type="checkbox" />С контрактом ознакомлен</label
+            ><br />
+            <button type="submit">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div id="footer">
+          <h1>Безрукова Д.27/1</h1>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

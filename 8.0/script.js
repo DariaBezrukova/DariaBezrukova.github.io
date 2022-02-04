@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
           `Ошибка при выполнении запроса: ${xhr.status} - ${xhr.response.message}`
         );
       } else {
-        alert(`Попалась!Все деньги с твоей карты спишутся..`);
+        alert(`Ну все,крошка! Летим в Турцию. Билеты куплены за твой счет) чмоки`);
         console.log(xhr.response);
       }
     };
